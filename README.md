@@ -1,34 +1,28 @@
-# Foobar
+# Encrypt-Decrypt
 
-Foobar is a Python library for dealing with word pluralization.
+Encrypt-Decrypt is a package you can use to encrypt and decrypt files, and even entire directories that you want to keep hidden from peering eyes.
 
 ## Installation
 
-Use the package manager [pip](https://pip.pypa.io/en/stable/) to install foobar.
+You can clone this repo into a new directory with the following commands.
+
+```bash 
+git clone https://github.com/ArcanumAmoris/Encrypt-Decrypt
+```
+
+Use the package manager [pip](https://pip.pypa.io/en/stable/) to install requirements.txt.
 
 ```bash
-pip install foobar
+cd Encrypt-Decrypt
+pip install requirements.txt
 ```
 
 ## Usage
 
-```python
-import foobar
-
-# returns 'words'
-foobar.pluralize('word')
-
-# returns 'geese'
-foobar.pluralize('goose')
-
-# returns 'phenomenon'
-foobar.singularize('phenomena')
-```
 
 ## Contributing
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
 
-Please make sure to update tests as appropriate.
 
 ## License
 [MIT](https://choosealicense.com/licenses/mit/)

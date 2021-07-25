@@ -1,6 +1,6 @@
 # Encrypt-Decrypt
 
-Encrypt-Decrypt is a package you can use to encrypt and decrypt files, and even entire directories that you want to keep hidden from peering eyes.
+Encrypt-Decrypt is a package you can use to easily encrypt and decrypt files, and even entire directories that you want to keep hidden from peering eyes.
 
 ## Installation
 
@@ -18,6 +18,8 @@ pip install requirements.txt
 ```
 
 ## Usage
+
+
 
 
 ## Contributing

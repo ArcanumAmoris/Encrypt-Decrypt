@@ -35,7 +35,7 @@ python3 encrypt.py
 
 4. After selecting encrypt/decrypt you will be prompted to select a file or directory which you would like to encrypt/decrypt. Enter the name of the file or directory and hit enter. 
 
-5. You should see "You have successfully encrypted/decrypted 'name of file' "
+5. You should see "You have successfully encrypted/decrypted 'name of file'".
 
 # IMPORTANT 
 

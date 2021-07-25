@@ -19,7 +19,27 @@ pip install requirements.txt
 
 ## Usage
 
+1. Run the generate_key.py script to generate a secret key with the following commands.
 
+```bash 
+python3 generate_key.py
+```
+
+2. Now that you have your secret key stored in secret.txt, you can safely encrypt any file or directory that is at the same directory level as your Encrypt-Decrypt package. Simply run the encrypt.py script with the following commands.
+
+```bash 
+python3 encrypt.py
+```
+
+3. You will be prompted to select encrypt or decrypt. Select 1 to encrypt and 2 to decrypt.
+
+4. After selecting encrypt or decrypt you will be prompted to select a file or directory which you would like to encrypt. Enter the name of the file or directory and hit enter. 
+
+5. You should see "You have successfully encrypted/decrypted 'name of file' "
+
+# IMPORTANT 
+
+DO NOT LOSE YOUR secret.txt FILE ONCE YOU HAVE ENCRYPTED YOUR FILES, OR YOU WILL BE UNABLE TO DECRYPT YOUR FILES.
 
 
 ## Contributing

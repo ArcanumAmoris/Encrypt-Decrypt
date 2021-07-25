@@ -7,6 +7,8 @@ with open('secret.txt', 'rb') as filekey:
 
 fernet = Fernet(key)
 
+vrt = 9
+
 def encrypt(selected_file):
     with open(selected_file, 'rb') as file:
         original = file.read()

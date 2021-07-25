@@ -47,7 +47,6 @@ def loop_through_all_files(enc_or_dec, encrypt_or_decrypt):
     for subdir, dirs, files in os.walk(directory):
         for file in files:
             filepath = subdir + os.sep + file
-            print(filepath)
             if enc_or_dec == 1:
                 encrypt(filepath)
             else:

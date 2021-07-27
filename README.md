@@ -30,7 +30,7 @@ python3 encrypt.py
 
 3. You will be prompted to select encrypt or decrypt. Select 1 to encrypt and 2 to decrypt.
 
-4. After selecting encrypt/decrypt you will be prompted to select a file or directory which you would like to encrypt/decrypt. Enter the name of the file or directory and hit enter. (If the file is not at the same directory level as encrypt.py, simply copy-paste the full path)
+4. After selecting encrypt/decrypt you will be prompted to select a file or directory which you would like to encrypt/decrypt. Enter the name of the file or directory and hit enter. (If the file you'd like to encrypt is not at the same directory level as encrypt.py, simply copy-paste the full path)
 
 5. You should see "You have successfully encrypted/decrypted 'name of file'".
 
